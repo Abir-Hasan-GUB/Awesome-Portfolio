@@ -1,0 +1,200 @@
+/*============Common CSS===============*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/*============End Common CSS===============*/
+
+/*============Start Header Part===============*/
+#header-part{
+    height: 400px;
+    background: url("../images/header-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header-left{
+    height: 400px;
+    box-sizing: border-box;
+    width: 60%;
+    float: left;
+    padding-top: 50px;
+}
+.intro{
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 80px;
+}
+.name{
+    font-size: 30px;
+    font-weight: 700;
+    color: #ec4c7a;
+    padding-left: 80px;
+}
+.details{
+    font-size: 14px;
+    width: 42%;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    text-align: justify;
+}
+.button{
+    padding: 5px 15px;
+    background-color: #ec4c7a;
+    margin-left: 80px;
+   
+}
+.header-right{
+    height: 400px;
+    width: 40%;
+    float: left;
+}
+.image-h{
+    height: 100%;
+}
+.image-w{
+    width: 100%;
+}
+/*============End Header Part===============*/
+
+/*============Start Biography Part===============*/
+#biography{
+    height: 400px;
+    background:url("../images/biography-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+.biography-left{
+    height: 400px;
+    width: 40%;
+    float: left;
+}
+.biography-right{
+    height: 400px;
+    width: 60%;
+    float: left;
+    box-sizing: border-box;
+}
+.bio-img{
+    padding-left: 100px;
+}
+/*============End Biography Part===============*/
+
+/*============Start Letest work Part===============*/
+#my-letest-work{
+    height: 600px;
+    background: url("../images/latest-work-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 70px;
+}
+.work-intro{
+    text-align: center;
+}
+.letest-work{
+    padding-top: 30px;
+}
+.work-item{
+    height: 300px;
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.work-gap{
+    margin-left: 3.3%;
+}
+/*============End Letest work Part===============*/
+
+/*============Start Statistics Part===============*/
+#statistics{
+    height: 200px;
+}
+
+.status{
+    height: 200px;
+    width: 20%;
+    float: left;
+    text-align: center;
+    background: #f8f9fc;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+#status-border-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#status-border-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#status-border-3{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan, #ec4c7a);
+    border-image-slice: 1;
+}
+.work-gap-2{
+    margin-right: 15%;
+    margin-left: 5%;
+}
+.work-gap-3{
+    margin-left: 15%;
+}
+.status-img{
+    height: 50px;
+    width: 50px;
+}
+/*============End Statistics Part===============*/
+
+/*============Start Client Part===============*/
+#client{
+    height: 450px;
+    background: url("../images/footer-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    margin-top: 200px;;
+}
+.client-details{
+    text-align: center;
+}
+.client-details p:nth-child(3){
+    width: 20%;
+    margin:auto;
+    margin-top: 30px;
+}
+.client-details p:nth-child(2){
+    font-size: 12px;
+    margin-top: -22px;
+}
+.messeage{
+    margin: auto;
+    height: 120px;
+    width: 25%;
+    background: #ec4c7a;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.msg{
+    padding-top: 20px;
+    font-size: 12px;
+}
+/*============End Client Part===============*/
+
+/*============Start Footer Part===============*/
+footer{
+    text-align: center;
+}
+footer a{
+    color: #ec4c7a;
+}
+/*============End Footer Part===============*/
